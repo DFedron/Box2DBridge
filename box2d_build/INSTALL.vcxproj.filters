@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\1\Desktop\huidong\UnityProject\Study\box2d_unity\build\CMakeFiles\870453a79aa710f9b47210fef13e8097\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{129FEF94-ACE9-3A00-A5FD-68044D884B6B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

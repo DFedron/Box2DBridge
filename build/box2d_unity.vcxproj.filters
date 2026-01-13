@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\1\Desktop\huidong\UnityProject\Study\box2d_unity\src\box2d_unity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\1\Desktop\huidong\UnityProject\Study\box2d_unity\src\box2d_unity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\1\Desktop\huidong\UnityProject\Study\box2d_unity\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6AB0BB91-5818-3023-B003-C6207E5BCEAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{32E62822-8C94-34BE-B68E-F468F43E15AF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

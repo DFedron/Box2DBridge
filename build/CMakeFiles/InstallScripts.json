@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity/build/cmake_install.cmake",
+		"C:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity/box2d_build/cmake_install.cmake",
+		"C:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity/box2d_build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
