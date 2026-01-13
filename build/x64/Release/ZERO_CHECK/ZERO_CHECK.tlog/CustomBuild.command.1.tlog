@@ -1,6 +1,6 @@
-^C:\USERS\1\DESKTOP\HUIDONG\UNITYPROJECT\STUDY\BOX2D_UNITY\BUILD\CMAKEFILES\52168149719352A99F5243A3616772BA\GENERATE.STAMP.RULE
+^C:\USERS\1\DESKTOP\HUIDONG\UNITYPROJECT\STUDY\BOX2D\BOX2D_UNITY\BUILD\CMAKEFILES\2034C589C638A06544CFD19CC2397C4E\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity -BC:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity/build/box2d_unity.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d_unity -BC:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d_unity/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d_unity/build/box2d_unity.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

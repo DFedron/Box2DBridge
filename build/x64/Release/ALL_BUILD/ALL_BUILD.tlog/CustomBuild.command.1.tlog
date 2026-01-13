@@ -1,6 +1,6 @@
-^C:\USERS\1\DESKTOP\HUIDONG\UNITYPROJECT\STUDY\BOX2D_UNITY\CMAKELISTS.TXT
+^C:\USERS\1\DESKTOP\HUIDONG\UNITYPROJECT\STUDY\BOX2D\BOX2D_UNITY\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity -BC:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity/build --check-stamp-file C:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d_unity -BC:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d_unity/build --check-stamp-file C:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d_unity/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity
+# Install script for directory: C:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d_unity
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity/box2d_build/cmake_install.cmake")
+  include("C:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d_unity/box2d_build/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity/build/install_local_manifest.txt"
+  file(WRITE "C:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d_unity/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -56,6 +56,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d_unity/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

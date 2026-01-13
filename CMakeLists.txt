@@ -1,9 +1,6 @@
 cmake_minimum_required(VERSION 3.21)
 project(box2d_unity LANGUAGES C CXX)
 
-if (MSVC)
-  target_compile_options(box2d_unity PRIVATE /utf-8)
-endif()
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)

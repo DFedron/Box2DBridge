@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{56DFDF2A-5840-30BD-B658-1C55973E3DE4}</ProjectGuid>
+    <ProjectGuid>{25254B98-6348-38FC-9700-3E0D37D6A4FB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\1\Desktop\huidong\UnityProject\Study\box2d\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\1\Desktop\huidong\UnityProject\Study\Box2D\box2d\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/1/Desktop/huidong/UnityProject/Study/box2d/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity -BC:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity/build --check-stamp-file C:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity/box2d_build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d_unity -BC:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d_unity/build --check-stamp-file C:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d_unity/box2d_build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -121,11 +121,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\1\Desktop\huidong\UnityProject\Study\box2d_unity\box2d_build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\1\Desktop\huidong\UnityProject\Study\Box2D\box2d_unity\box2d_build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/1/Desktop/huidong/UnityProject/Study/box2d/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity -BC:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity/build --check-stamp-file C:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity/box2d_build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d_unity -BC:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d_unity/build --check-stamp-file C:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d_unity/box2d_build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -134,11 +134,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\1\Desktop\huidong\UnityProject\Study\box2d_unity\box2d_build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\1\Desktop\huidong\UnityProject\Study\Box2D\box2d_unity\box2d_build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/1/Desktop/huidong/UnityProject/Study/box2d/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity -BC:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity/build --check-stamp-file C:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity/box2d_build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d_unity -BC:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d_unity/build --check-stamp-file C:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d_unity/box2d_build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -147,11 +147,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\1\Desktop\huidong\UnityProject\Study\box2d_unity\box2d_build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\1\Desktop\huidong\UnityProject\Study\Box2D\box2d_unity\box2d_build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/1/Desktop/huidong/UnityProject/Study/box2d/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity -BC:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity/build --check-stamp-file C:/Users/1/Desktop/huidong/UnityProject/Study/box2d_unity/box2d_build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d_unity -BC:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d_unity/build --check-stamp-file C:/Users/1/Desktop/huidong/UnityProject/Study/Box2D/box2d_unity/box2d_build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -160,7 +160,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\1\Desktop\huidong\UnityProject\Study\box2d_unity\box2d_build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\1\Desktop\huidong\UnityProject\Study\Box2D\box2d_unity\box2d_build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -168,14 +168,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\1\Desktop\huidong\UnityProject\Study\box2d_unity\build\ZERO_CHECK.vcxproj">
-      <Project>{B36C9713-8979-3BA9-A1C6-8F521B8CED9F}</Project>
+    <ProjectReference Include="C:\Users\1\Desktop\huidong\UnityProject\Study\Box2D\box2d_unity\build\ZERO_CHECK.vcxproj">
+      <Project>{A7E525F7-25CA-3D86-8228-EEAEC2C5C23C}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\1\Desktop\huidong\UnityProject\Study\box2d_unity\box2d_build\src\box2d.vcxproj">
-      <Project>{034D1E2A-7581-38C9-8D2F-42C4E9F07C5F}</Project>
+    <ProjectReference Include="C:\Users\1\Desktop\huidong\UnityProject\Study\Box2D\box2d_unity\box2d_build\src\box2d.vcxproj">
+      <Project>{270D7EE0-198A-3F2B-B9E7-BF6ACBC954BC}</Project>
       <Name>box2d</Name>
     </ProjectReference>
   </ItemGroup>
